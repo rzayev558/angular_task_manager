@@ -9,6 +9,11 @@ import { TasksComponent } from './components/tasks/tasks.component';
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [CommonModule, RouterOutlet, HeaderComponent, TasksComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    HeaderComponent,
+    TasksComponent,
+  ],
 })
 export class AppComponent {}
